@@ -1,0 +1,7 @@
+name,model,pretrained,strategy,image_size,lr,batch_size,dropout,augmentation,optimizer,weight_decay,epochs,label_smoothing,scheduler,best_val_acc,test_acc,macro_precision,macro_recall
+ResNet18_03_lr1e4_bs16_layer4_fc,ResNet18,True,layer4,224,0.0001,16,0.0,baseline,adamw,0.0001,20,0.0,plateau,0.9022,0.8591,0.8611,0.8585
+ResNet18_04_lr5e4_bs16_layer4_fc,ResNet18,True,layer4,224,0.0005,16,0.0,baseline,adamw,0.0001,20,0.0,plateau,0.8981,0.8444,0.8493,0.8438
+ResNet18_02_lr1e3_bs32_layer4_fc,ResNet18,True,layer4,224,0.001,32,0.0,baseline,adamw,0.0001,20,0.0,plateau,0.8899,0.8373,0.8403,0.8366
+ResNet18_02_lr1e3_bs32_layer4_fc,ResNet18,True,layer4,224,0.001,32,0.0,baseline,adamw,0.0001,20,0.0,plateau,0.8886,0.8419,0.8463,0.8416
+ResNet18_05_lr5e4_bs16_layer3_layer4_fc,ResNet18,True,layer3_layer4,224,0.0005,16,0.0,baseline,adamw,0.0001,20,0.0,plateau,0.8777,0.8272,0.8353,0.8267
+ResNet18_01_lr1e3_bs16_layer4_fc,ResNet18,True,layer4,224,0.001,16,0.0,baseline,adamw,0.0001,20,0.0,plateau,0.8668,0.8209,0.8303,0.8204
