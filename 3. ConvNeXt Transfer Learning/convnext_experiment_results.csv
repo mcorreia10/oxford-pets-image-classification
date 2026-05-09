@@ -1,0 +1,6 @@
+name,model,pretrained,strategy,image_size,lr,batch_size,dropout,augmentation,optimizer,weight_decay,epochs,label_smoothing,scheduler,best_val_acc,test_acc,macro_precision,macro_recall
+exp2_convnext_img256,ConvNeXt Tiny,True,last_block,256,0.0005,24,0.1,baseline,adamw,0.0001,20,0.05,cosine,0.9688,0.9406,0.9418,0.94
+exp4_convnext_last_two_blocks,ConvNeXt Tiny,True,last_two_blocks,224,5e-05,16,0.2,baseline,adamw,0.001,30,0.05,cosine,0.966,0.9387,0.9392,0.9383
+exp1_convnext_lr_5e4,ConvNeXt Tiny,True,last_block,224,0.0005,32,0.1,baseline,adamw,0.0001,20,0.05,cosine,0.9633,0.933,0.9345,0.9325
+exp3_convnext_classifier_only,ConvNeXt Tiny,True,classifier_only,224,0.001,32,0.2,strong,adamw,0.0001,20,0.05,cosine,0.9552,0.9248,0.9283,0.9245
+exp5_convnext_full_finetune,ConvNeXt Tiny,True,full_finetune,224,1e-05,16,0.2,strong,adamw,0.001,30,0.05,cosine,0.9538,0.9237,0.9271,0.9236
