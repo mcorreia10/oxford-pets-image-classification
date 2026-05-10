@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# ML files
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+
+# datasets
+data/
+datasets/
+
+# cache
+.cache/
+huggingface/
