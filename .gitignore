@@ -13,6 +13,7 @@ env/
 *.bin
 *.h5
 *.ckpt
+*.pth
 
 # datasets
 data/
