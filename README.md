@@ -1,5 +1,12 @@
 # Oxford-IIIT Pet Breed Classification Project
 
+**Team:** Marcelo Correia · Don Mithila Meshan Palliya Guruge · Benay Gavazoglu
+**Ironhack AI Engineering Bootcamp — May 2026**
+
+> This is a personal portfolio copy of our bootcamp team submission, preserved with full original commit history. The original submission repository (shared with Ironhack for grading and left unchanged) lives at [mcorreia10/CNN-Lab](https://github.com/mcorreia10/CNN-Lab).
+
+---
+
 ## Project Overview
 
 This project focuses on image classification using the **Oxford-IIIT Pet Dataset**, a dataset containing images of cats and dogs from 37 different breeds.
@@ -227,4 +234,10 @@ The app demonstrates how trained deep learning models can be integrated into a s
 - Streamlit
 - PIL / Pillow
 - Jupyter Notebook / Google Colab
+
+---
+
+## Team & Credits
+
+**Marcelo Correia · Don Mithila Meshan Palliya Guruge · Benay Gavazoglu** — Ironhack AI Engineering Bootcamp, May 2026.
 
